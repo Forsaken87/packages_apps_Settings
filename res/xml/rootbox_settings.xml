@@ -37,6 +37,13 @@
         android:persistent="false" />
 
   <PreferenceScreen
+        android:key="pie_control"
+        android:icon="@drawable/ic_settings_pie"
+        android:fragment="com.android.settings.paranoid.Pie"
+        android:title="@string/pie_controls_title"
+        android:summary="@string/pie_controls_summary" />
+
+  <PreferenceScreen
         android:key="lock_screen_shortcuts"
         android:icon="@drawable/ic_settings_lock_screen"
         android:fragment="com.android.settings.rb.Shortcuts"
